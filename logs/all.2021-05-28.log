@@ -1,0 +1,1064 @@
+2021-05-28 10:36:07.030 -INFO 46348 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46348 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 10:36:07.032 -DEBUG 46348 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 10:36:07.032 -INFO 46348 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 10:36:07.500 -INFO 46348 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 10:36:07.500 -INFO 46348 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 10:36:07.512 -INFO 46348 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 10:36:07.522 -INFO 46348 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 10:36:07.523 -INFO 46348 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 10:36:07.534 -INFO 46348 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-28 10:36:07.942 -INFO 46348 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 10:36:07.983 -INFO 46348 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:105}] to localhost:27017
+2021-05-28 10:36:07.983 -INFO 46348 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:104}] to localhost:27017
+2021-05-28 10:36:07.984 -INFO 46348 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=14450747}
+2021-05-28 10:36:09.216 -INFO 46348 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 10:36:09.223 -INFO 46348 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 10:36:09.223 -INFO 46348 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 10:36:09.224 -INFO 46348 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 10:36:09.224 -INFO 46348 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 10:36:09.224 -INFO 46348 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 10:36:09.224 -INFO 46348 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 10:36:09.224 -INFO 46348 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@61853c7e
+2021-05-28 10:36:10.065 -INFO 46348 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 10:36:10.066 -INFO 46348 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 10:36:10.066 -INFO 46348 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 10:36:10.073 -INFO 46348 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.31 seconds (JVM running for 3.887)
+2021-05-28 10:36:10.074 -INFO 46348 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 10:36:10.075 -INFO 46348 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 10:36:10.108 -INFO 46348 [           main] org.reflections.Reflections : Reflections took 19 ms to scan 1 urls, producing 4 keys and 8 values 
+2021-05-28 10:36:10.124 -INFO 46348 [           main] org.reflections.Reflections : Reflections took 2 ms to scan 1 urls, producing 2 keys and 4 values 
+2021-05-28 10:44:55.961 -INFO 46429 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46429 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 10:44:55.963 -DEBUG 46429 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 10:44:55.963 -INFO 46429 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 10:44:56.396 -INFO 46429 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 10:44:56.397 -INFO 46429 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 10:44:56.409 -INFO 46429 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 10:44:56.418 -INFO 46429 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 10:44:56.418 -INFO 46429 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 10:44:56.430 -INFO 46429 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-28 10:44:56.855 -INFO 46429 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 10:44:56.895 -INFO 46429 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:106}] to localhost:27017
+2021-05-28 10:44:56.895 -INFO 46429 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:107}] to localhost:27017
+2021-05-28 10:44:56.895 -INFO 46429 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=13306519}
+2021-05-28 10:44:58.138 -INFO 46429 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 10:44:58.145 -INFO 46429 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 10:44:58.145 -INFO 46429 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 10:44:58.146 -INFO 46429 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 10:44:58.146 -INFO 46429 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 10:44:58.146 -INFO 46429 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 10:44:58.146 -INFO 46429 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 10:44:58.146 -INFO 46429 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@44da7eb3
+2021-05-28 10:44:58.968 -INFO 46429 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 10:44:58.970 -INFO 46429 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 10:44:58.970 -INFO 46429 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 10:44:58.976 -INFO 46429 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.313 seconds (JVM running for 3.902)
+2021-05-28 10:44:58.977 -INFO 46429 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 10:44:58.978 -INFO 46429 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 10:44:59.008 -INFO 46429 [           main] org.reflections.Reflections : Reflections took 18 ms to scan 1 urls, producing 4 keys and 8 values 
+2021-05-28 10:44:59.021 -INFO 46429 [           main] org.reflections.Reflections : Reflections took 3 ms to scan 1 urls, producing 2 keys and 4 values 
+2021-05-28 10:45:00.852 -ERROR 46429 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-TEST_LOGIN_PERMISSION-{"bizTypeStr":"TEST_LOGIN_PERMISSION","paramsMap":{"TEST_PARAMS":"com.flying.dragon.Biz.Params.TestParams.in.TestInParams","USER_LOG_IN":"com.flying.dragon.Biz.Params.UserParams.in.LoginInParams"}}-SysError001-com.flying.dragon.Biz.Dispatcher#dispatch#68/com.flying.dragon.Biz.Entrance.Controller.TestController#test#33/
+2021-05-28 10:45:18.495 -ERROR 46429 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-TEST_LOGIN_PERMISSION-{"bizTypeStr":"TEST_LOGIN_PERMISSION","paramsMap":{"TEST_PARAMS":"com.flying.dragon.Biz.Params.TestParams.in.TestInParams","USER_LOG_IN":"com.flying.dragon.Biz.Params.UserParams.in.LoginInParams"}}-SysError001-com.flying.dragon.Biz.Dispatcher#dispatch#68/com.flying.dragon.Biz.Entrance.Controller.TestController#test#33/
+2021-05-28 10:47:11.200 -INFO 46445 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46445 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 10:47:11.203 -DEBUG 46445 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 10:47:11.203 -INFO 46445 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 10:47:11.671 -INFO 46445 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 10:47:11.671 -INFO 46445 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 10:47:11.684 -INFO 46445 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 10:47:11.694 -INFO 46445 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 10:47:11.695 -INFO 46445 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 10:47:11.707 -INFO 46445 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-28 10:47:12.163 -INFO 46445 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 10:47:12.203 -INFO 46445 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:109}] to localhost:27017
+2021-05-28 10:47:12.203 -INFO 46445 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:110}] to localhost:27017
+2021-05-28 10:47:12.203 -INFO 46445 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=13266759}
+2021-05-28 10:47:13.608 -INFO 46445 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 10:47:13.615 -INFO 46445 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 10:47:13.615 -INFO 46445 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 10:47:13.616 -INFO 46445 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 10:47:13.616 -INFO 46445 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 10:47:13.616 -INFO 46445 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 10:47:13.616 -INFO 46445 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 10:47:13.616 -INFO 46445 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2aa6bbad
+2021-05-28 10:47:14.484 -INFO 46445 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 10:47:14.485 -INFO 46445 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 10:47:14.485 -INFO 46445 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 10:47:14.493 -INFO 46445 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.57 seconds (JVM running for 4.133)
+2021-05-28 10:47:14.494 -INFO 46445 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 10:47:14.495 -INFO 46445 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 10:47:14.527 -INFO 46445 [           main] org.reflections.Reflections : Reflections took 19 ms to scan 1 urls, producing 4 keys and 8 values 
+2021-05-28 10:47:14.543 -INFO 46445 [           main] org.reflections.Reflections : Reflections took 3 ms to scan 1 urls, producing 2 keys and 4 values 
+2021-05-28 10:47:16.914 -WARN 46445 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-TEST_LOGIN_PERMISSION-{"bizTypeStr":"TEST_LOGIN_PERMISSION","paramsMap":{"TEST_PARAMS":"com.flying.dragon.Biz.Params.TestParams.in.TestInParams","USER_LOG_IN":"com.flying.dragon.Biz.Params.UserParams.in.LoginInParams"}}-UserWarn002-com.flying.dragon.Frame.Aspect.LogInAspect#around#27/
+2021-05-28 10:47:19.510 -WARN 46445 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-USER_LOG_OUT-{"bizTypeStr":"USER_LOG_OUT","paramsMap":{"TEST_PARAMS":"com.flying.dragon.Biz.Params.TestParams.in.TestInParams","USER_LOG_IN":"com.flying.dragon.Biz.Params.UserParams.in.LoginInParams"}}-UserWarn002-com.flying.dragon.Frame.Aspect.LogInAspect#around#27/
+2021-05-28 10:47:21.366 -INFO 46445 [ctor-http-nio-2] org.mongodb.driver.connection : Opened connection [connectionId{localValue:3, serverValue:111}] to localhost:27017
+2021-05-28 10:48:06.667 -INFO 46456 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46456 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 10:48:06.670 -DEBUG 46456 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 10:48:06.670 -INFO 46456 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 10:48:07.131 -INFO 46456 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 10:48:07.132 -INFO 46456 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 10:48:07.146 -INFO 46456 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 10:48:07.159 -INFO 46456 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 10:48:07.160 -INFO 46456 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 10:48:07.176 -INFO 46456 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-28 10:48:07.612 -INFO 46456 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 10:48:07.652 -INFO 46456 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:112}] to localhost:27017
+2021-05-28 10:48:07.652 -INFO 46456 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:113}] to localhost:27017
+2021-05-28 10:48:07.652 -INFO 46456 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=14254897}
+2021-05-28 10:48:08.911 -INFO 46456 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 10:48:08.918 -INFO 46456 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 10:48:08.918 -INFO 46456 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 10:48:08.919 -INFO 46456 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 10:48:08.919 -INFO 46456 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 10:48:08.919 -INFO 46456 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 10:48:08.919 -INFO 46456 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 10:48:08.919 -INFO 46456 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@20b829d5
+2021-05-28 10:48:09.756 -INFO 46456 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 10:48:09.757 -INFO 46456 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 10:48:09.757 -INFO 46456 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 10:48:09.765 -INFO 46456 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.411 seconds (JVM running for 4.002)
+2021-05-28 10:48:09.766 -INFO 46456 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 10:48:09.767 -INFO 46456 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 10:48:09.803 -INFO 46456 [           main] org.reflections.Reflections : Reflections took 21 ms to scan 1 urls, producing 4 keys and 8 values 
+2021-05-28 10:48:09.819 -INFO 46456 [           main] org.reflections.Reflections : Reflections took 3 ms to scan 1 urls, producing 2 keys and 4 values 
+2021-05-28 11:11:03.546 -INFO 46634 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46634 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 11:11:03.548 -DEBUG 46634 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 11:11:03.548 -INFO 46634 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 11:11:04.016 -INFO 46634 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 11:11:04.017 -INFO 46634 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 11:11:04.030 -INFO 46634 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 11:11:04.041 -INFO 46634 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 11:11:04.042 -INFO 46634 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 11:11:04.053 -INFO 46634 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-28 11:11:04.456 -INFO 46634 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 11:11:04.500 -INFO 46634 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:114}] to localhost:27017
+2021-05-28 11:11:04.500 -INFO 46634 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:115}] to localhost:27017
+2021-05-28 11:11:04.500 -INFO 46634 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=14936819}
+2021-05-28 11:11:05.743 -INFO 46634 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 11:11:05.750 -INFO 46634 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 11:11:05.750 -INFO 46634 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 11:11:05.751 -INFO 46634 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 11:11:05.751 -INFO 46634 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 11:11:05.751 -INFO 46634 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 11:11:05.751 -INFO 46634 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 11:11:05.751 -INFO 46634 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7523d5a1
+2021-05-28 11:11:06.600 -INFO 46634 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 11:11:06.601 -INFO 46634 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 11:11:06.601 -INFO 46634 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 11:11:06.610 -INFO 46634 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.335 seconds (JVM running for 3.923)
+2021-05-28 11:11:06.611 -INFO 46634 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 11:11:06.612 -INFO 46634 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 11:11:06.650 -INFO 46634 [           main] org.reflections.Reflections : Reflections took 22 ms to scan 1 urls, producing 4 keys and 8 values 
+2021-05-28 11:11:06.668 -INFO 46634 [           main] org.reflections.Reflections : Reflections took 4 ms to scan 1 urls, producing 2 keys and 4 values 
+2021-05-28 11:11:16.700 -WARN 46634 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-null-dsfds-SysError004-com.flying.dragon.Biz.Entrance.MySocketHandler#processMsg#86/
+2021-05-28 11:11:47.108 -WARN 46634 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-null-{ "bizTypeStr": "USER_LOG_OUT"}-SysError004-com.flying.dragon.Biz.Entrance.MySocketHandler#processMsg#86/
+2021-05-28 11:12:21.198 -WARN 46634 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-null-{ "bizTypeStr": "USER_LOG_OUT"}-SysError004-com.flying.dragon.Biz.Entrance.MySocketHandler#processMsg#86/
+2021-05-28 11:12:54.352 -INFO 46656 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46656 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 11:12:54.354 -DEBUG 46656 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 11:12:54.354 -INFO 46656 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 11:12:54.798 -INFO 46656 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 11:12:54.798 -INFO 46656 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 11:12:54.811 -INFO 46656 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 11:12:54.821 -INFO 46656 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 11:12:54.821 -INFO 46656 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 11:12:54.831 -INFO 46656 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-05-28 11:12:55.261 -INFO 46656 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 11:12:55.300 -INFO 46656 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:116}] to localhost:27017
+2021-05-28 11:12:55.300 -INFO 46656 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:117}] to localhost:27017
+2021-05-28 11:12:55.300 -INFO 46656 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=12624105}
+2021-05-28 11:12:56.575 -INFO 46656 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 11:12:56.583 -INFO 46656 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 11:12:56.583 -INFO 46656 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 11:12:56.584 -INFO 46656 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 11:12:56.584 -INFO 46656 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 11:12:56.584 -INFO 46656 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 11:12:56.584 -INFO 46656 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 11:12:56.584 -INFO 46656 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7ead1d80
+2021-05-28 11:12:57.467 -INFO 46656 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 11:12:57.467 -INFO 46656 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 11:12:57.468 -INFO 46656 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 11:12:57.474 -INFO 46656 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.413 seconds (JVM running for 3.991)
+2021-05-28 11:12:57.475 -INFO 46656 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 11:12:57.476 -INFO 46656 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 11:12:57.510 -INFO 46656 [           main] org.reflections.Reflections : Reflections took 20 ms to scan 1 urls, producing 4 keys and 8 values 
+2021-05-28 11:12:57.525 -INFO 46656 [           main] org.reflections.Reflections : Reflections took 3 ms to scan 1 urls, producing 2 keys and 4 values 
+2021-05-28 11:13:14.563 -WARN 46656 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-null-{ "bizType": "USER_LOG_OUT"}-SysError004-com.flying.dragon.Biz.Entrance.MySocketHandler#processMsg#86/
+2021-05-28 11:13:32.543 -WARN 46656 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-USER_LOG_OUT-{ "bizTypeStr": "USER_LOG_OUT"}-SysError004-com.flying.dragon.Biz.Entrance.MySocketHandler#processMsg#86/
+2021-05-28 11:14:02.145 -INFO 46667 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46667 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 11:14:02.146 -DEBUG 46667 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 11:14:02.147 -INFO 46667 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 11:14:02.609 -INFO 46667 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 11:14:02.609 -INFO 46667 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 11:14:02.622 -INFO 46667 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 11:14:02.632 -INFO 46667 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 11:14:02.632 -INFO 46667 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 11:14:02.644 -INFO 46667 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-28 11:14:03.066 -INFO 46667 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 11:14:03.107 -INFO 46667 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:119}] to localhost:27017
+2021-05-28 11:14:03.107 -INFO 46667 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:118}] to localhost:27017
+2021-05-28 11:14:03.107 -INFO 46667 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=13110924}
+2021-05-28 11:14:04.412 -INFO 46667 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 11:14:04.420 -INFO 46667 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 11:14:04.420 -INFO 46667 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 11:14:04.420 -INFO 46667 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 11:14:04.421 -INFO 46667 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 11:14:04.421 -INFO 46667 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 11:14:04.421 -INFO 46667 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 11:14:04.421 -INFO 46667 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@28367da7
+2021-05-28 11:14:05.325 -INFO 46667 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 11:14:05.326 -INFO 46667 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 11:14:05.326 -INFO 46667 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 11:14:05.333 -INFO 46667 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.473 seconds (JVM running for 4.175)
+2021-05-28 11:14:05.334 -INFO 46667 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 11:14:05.336 -INFO 46667 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 11:14:05.368 -INFO 46667 [           main] org.reflections.Reflections : Reflections took 19 ms to scan 1 urls, producing 4 keys and 8 values 
+2021-05-28 11:14:05.382 -INFO 46667 [           main] org.reflections.Reflections : Reflections took 3 ms to scan 1 urls, producing 2 keys and 4 values 
+2021-05-28 11:14:19.164 -WARN 46667 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-USER_LOG_OUT-{"bizTypeStr":"USER_LOG_OUT","paramsMap":{"TEST_PARAMS":"com.flying.dragon.Biz.Params.TestParams.in.TestInParams","USER_LOG_IN":"com.flying.dragon.Biz.Params.UserParams.in.LoginInParams"}}-UserWarn002-com.flying.dragon.Frame.Aspect.LogInAspect#around#27/
+2021-05-28 11:14:34.438 -INFO 46678 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46678 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 11:14:34.439 -DEBUG 46678 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 11:14:34.439 -INFO 46678 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 11:14:34.889 -INFO 46678 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 11:14:34.890 -INFO 46678 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 11:14:34.903 -INFO 46678 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 11:14:34.913 -INFO 46678 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 11:14:34.914 -INFO 46678 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 11:14:34.926 -INFO 46678 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-28 11:14:35.353 -INFO 46678 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 11:14:35.391 -INFO 46678 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:121}] to localhost:27017
+2021-05-28 11:14:35.391 -INFO 46678 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:120}] to localhost:27017
+2021-05-28 11:14:35.391 -INFO 46678 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=12592748}
+2021-05-28 11:14:36.621 -INFO 46678 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 11:14:36.628 -INFO 46678 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 11:14:36.628 -INFO 46678 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 11:14:36.629 -INFO 46678 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 11:14:36.629 -INFO 46678 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 11:14:36.629 -INFO 46678 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 11:14:36.629 -INFO 46678 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 11:14:36.629 -INFO 46678 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4fe8f2ae
+2021-05-28 11:14:37.460 -INFO 46678 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 11:14:37.461 -INFO 46678 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 11:14:37.461 -INFO 46678 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 11:14:37.468 -INFO 46678 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.336 seconds (JVM running for 3.937)
+2021-05-28 11:14:37.469 -INFO 46678 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 11:14:37.470 -INFO 46678 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 11:14:37.499 -INFO 46678 [           main] org.reflections.Reflections : Reflections took 17 ms to scan 1 urls, producing 4 keys and 8 values 
+2021-05-28 11:14:37.512 -INFO 46678 [           main] org.reflections.Reflections : Reflections took 3 ms to scan 1 urls, producing 2 keys and 4 values 
+2021-05-28 11:14:45.252 -WARN 46678 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-USER_LOG_IN-{"bizTypeStr":"USER_LOG_IN","paramsMap":{"TEST_PARAMS":"com.flying.dragon.Biz.Params.TestParams.in.TestInParams","USER_LOG_IN":"com.flying.dragon.Biz.Params.UserParams.in.LoginInParams"}}-CheckParamsError-com.flying.dragon.Frame.Aspect.CheckParamsAspect#around#32/
+2021-05-28 11:14:59.879 -INFO 46678 [ctor-http-nio-2] org.mongodb.driver.connection : Opened connection [connectionId{localValue:3, serverValue:122}] to localhost:27017
+2021-05-28 11:15:09.732 -WARN 46678 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-USER_LOG_OUT-{"bizTypeStr":"USER_LOG_OUT","paramsMap":{"TEST_PARAMS":"com.flying.dragon.Biz.Params.TestParams.in.TestInParams","USER_LOG_IN":"com.flying.dragon.Biz.Params.UserParams.in.LoginInParams"},"username":"test"}-UserWarn002-com.flying.dragon.Frame.Aspect.LogInAspect#around#27/
+2021-05-28 11:15:19.172 -ERROR 46678 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-TEST_LOG_IN-{"bizTypeStr":"TEST_LOG_IN","paramsMap":{"TEST_PARAMS":"com.flying.dragon.Biz.Params.TestParams.in.TestInParams","USER_LOG_IN":"com.flying.dragon.Biz.Params.UserParams.in.LoginInParams"},"username":"test"}-SysError002-com.flying.dragon.Biz.Dispatcher#dispatch#58/com.flying.dragon.Biz.Entrance.MySocketHandler#processMsg#90/com.flying.dragon.Biz.Entrance.MySocketHandler#lambda$handle$1#58/
+2021-05-28 11:15:40.596 -ERROR 46678 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-TEST_LOG_PERMISSION-{"bizTypeStr":"TEST_LOG_PERMISSION","paramsMap":{"TEST_PARAMS":"com.flying.dragon.Biz.Params.TestParams.in.TestInParams","USER_LOG_IN":"com.flying.dragon.Biz.Params.UserParams.in.LoginInParams"},"username":"test"}-SysError002-com.flying.dragon.Biz.Dispatcher#dispatch#58/com.flying.dragon.Biz.Entrance.MySocketHandler#processMsg#90/com.flying.dragon.Biz.Entrance.MySocketHandler#lambda$handle$1#58/
+2021-05-28 11:15:47.307 -WARN 46678 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-TEST_LOGIN_PERMISSION-{"bizTypeStr":"TEST_LOGIN_PERMISSION","paramsMap":{"TEST_PARAMS":"com.flying.dragon.Biz.Params.TestParams.in.TestInParams","USER_LOG_IN":"com.flying.dragon.Biz.Params.UserParams.in.LoginInParams"},"username":"test"}-UserWarn002-com.flying.dragon.Frame.Aspect.LogInAspect#around#27/
+2021-05-28 11:15:49.426 -WARN 46678 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-TEST_LOGIN_PERMISSION-{"bizTypeStr":"TEST_LOGIN_PERMISSION","paramsMap":{"TEST_PARAMS":"com.flying.dragon.Biz.Params.TestParams.in.TestInParams","USER_LOG_IN":"com.flying.dragon.Biz.Params.UserParams.in.LoginInParams"},"username":"test"}-UserWarn002-com.flying.dragon.Frame.Aspect.LogInAspect#around#27/
+2021-05-28 11:29:36.171 -INFO 46785 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46785 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 11:29:36.173 -DEBUG 46785 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 11:29:36.173 -INFO 46785 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 11:29:36.656 -INFO 46785 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 11:29:36.656 -INFO 46785 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 11:29:36.669 -INFO 46785 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 11:29:36.679 -INFO 46785 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 11:29:36.679 -INFO 46785 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 11:29:36.689 -INFO 46785 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2021-05-28 11:29:37.110 -INFO 46785 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 11:29:37.150 -INFO 46785 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:124}] to localhost:27017
+2021-05-28 11:29:37.150 -INFO 46785 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:123}] to localhost:27017
+2021-05-28 11:29:37.150 -INFO 46785 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=13845547}
+2021-05-28 11:29:38.359 -INFO 46785 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 11:29:38.366 -INFO 46785 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 11:29:38.366 -INFO 46785 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 11:29:38.367 -INFO 46785 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 11:29:38.367 -INFO 46785 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 11:29:38.367 -INFO 46785 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 11:29:38.367 -INFO 46785 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 11:29:38.367 -INFO 46785 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1d1bf7bf
+2021-05-28 11:29:39.194 -INFO 46785 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 11:29:39.195 -INFO 46785 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 11:29:39.195 -INFO 46785 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 11:29:39.202 -INFO 46785 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.307 seconds (JVM running for 3.95)
+2021-05-28 11:29:39.203 -INFO 46785 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 11:29:39.204 -INFO 46785 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 11:29:39.236 -INFO 46785 [           main] org.reflections.Reflections : Reflections took 18 ms to scan 1 urls, producing 4 keys and 8 values 
+2021-05-28 11:29:39.250 -INFO 46785 [           main] org.reflections.Reflections : Reflections took 3 ms to scan 1 urls, producing 2 keys and 4 values 
+2021-05-28 11:29:43.218 -WARN 46785 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-USER_LOG_OUT-{"bizTypeStr":"USER_LOG_OUT"}-UserWarn002-com.flying.dragon.Frame.Aspect.LogInAspect#around#27/
+2021-05-28 11:29:45.222 -WARN 46785 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-TEST_LOGIN_PERMISSION-{"bizTypeStr":"TEST_LOGIN_PERMISSION"}-UserWarn002-com.flying.dragon.Frame.Aspect.LogInAspect#around#27/
+2021-05-28 11:29:46.910 -INFO 46785 [ctor-http-nio-2] org.mongodb.driver.connection : Opened connection [connectionId{localValue:3, serverValue:125}] to localhost:27017
+2021-05-28 16:23:53.018 -INFO 47266 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47266 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:23:53.020 -DEBUG 47266 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 16:23:53.020 -INFO 47266 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:23:53.506 -INFO 47266 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:23:53.507 -INFO 47266 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 16:23:53.522 -INFO 47266 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 16:23:53.533 -INFO 47266 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:23:53.534 -INFO 47266 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 16:23:53.546 -INFO 47266 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-28 16:23:53.994 -INFO 47266 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 16:23:54.037 -INFO 47266 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:127}] to localhost:27017
+2021-05-28 16:23:54.037 -INFO 47266 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:126}] to localhost:27017
+2021-05-28 16:23:54.037 -INFO 47266 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=14300994}
+2021-05-28 16:23:55.449 -INFO 47266 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 16:23:55.456 -INFO 47266 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 16:23:55.456 -INFO 47266 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 16:23:55.456 -INFO 47266 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 16:23:55.457 -INFO 47266 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 16:23:55.457 -INFO 47266 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 16:23:55.457 -INFO 47266 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 16:23:55.457 -INFO 47266 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@afee63
+2021-05-28 16:23:56.342 -INFO 47266 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 16:23:56.343 -INFO 47266 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 16:23:56.343 -INFO 47266 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 16:23:56.351 -INFO 47266 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.659 seconds (JVM running for 4.298)
+2021-05-28 16:23:56.352 -INFO 47266 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 16:23:56.353 -INFO 47266 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 16:23:56.388 -INFO 47266 [           main] org.reflections.Reflections : Reflections took 21 ms to scan 1 urls, producing 4 keys and 13 values 
+2021-05-28 16:23:56.405 -INFO 47266 [           main] org.reflections.Reflections : Reflections took 3 ms to scan 1 urls, producing 2 keys and 5 values 
+2021-05-28 16:25:06.539 -INFO 47280 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47280 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:25:06.541 -DEBUG 47280 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 16:25:06.541 -INFO 47280 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:25:07.000 -INFO 47280 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:25:07.001 -INFO 47280 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 16:25:07.015 -INFO 47280 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 16:25:07.026 -INFO 47280 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:25:07.027 -INFO 47280 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 16:25:07.040 -INFO 47280 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2021-05-28 16:25:07.462 -INFO 47280 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 16:25:07.501 -INFO 47280 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:129}] to localhost:27017
+2021-05-28 16:25:07.501 -INFO 47280 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:128}] to localhost:27017
+2021-05-28 16:25:07.501 -INFO 47280 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=13120854}
+2021-05-28 16:25:09.022 -INFO 47280 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 16:25:09.029 -INFO 47280 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 16:25:09.029 -INFO 47280 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 16:25:09.029 -INFO 47280 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 16:25:09.030 -INFO 47280 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 16:25:09.030 -INFO 47280 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 16:25:09.030 -INFO 47280 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 16:25:09.030 -INFO 47280 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6a5dd083
+2021-05-28 16:25:09.883 -INFO 47280 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 16:25:09.884 -INFO 47280 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 16:25:09.884 -INFO 47280 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 16:25:09.891 -INFO 47280 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.615 seconds (JVM running for 4.197)
+2021-05-28 16:25:09.892 -INFO 47280 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 16:25:09.893 -INFO 47280 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 16:25:09.924 -INFO 47280 [           main] org.reflections.Reflections : Reflections took 19 ms to scan 1 urls, producing 4 keys and 13 values 
+2021-05-28 16:25:09.938 -INFO 47280 [           main] org.reflections.Reflections : Reflections took 3 ms to scan 1 urls, producing 2 keys and 5 values 
+2021-05-28 16:27:07.179 -INFO 47294 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47294 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:27:07.181 -DEBUG 47294 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 16:27:07.181 -INFO 47294 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:27:07.636 -INFO 47294 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:27:07.636 -INFO 47294 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 16:27:07.648 -INFO 47294 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 16:27:07.657 -INFO 47294 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:27:07.658 -INFO 47294 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 16:27:07.668 -INFO 47294 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-28 16:27:08.060 -INFO 47294 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 16:27:08.100 -INFO 47294 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:130}] to localhost:27017
+2021-05-28 16:27:08.100 -INFO 47294 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:131}] to localhost:27017
+2021-05-28 16:27:08.100 -INFO 47294 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=14137323}
+2021-05-28 16:27:09.291 -INFO 47294 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 16:27:09.299 -INFO 47294 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 16:27:09.299 -INFO 47294 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 16:27:09.299 -INFO 47294 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 16:27:09.300 -INFO 47294 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 16:27:09.300 -INFO 47294 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 16:27:09.300 -INFO 47294 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 16:27:09.300 -INFO 47294 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@dc59ec2
+2021-05-28 16:27:10.166 -INFO 47294 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 16:27:10.167 -INFO 47294 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 16:27:10.168 -INFO 47294 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 16:27:10.175 -INFO 47294 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.263 seconds (JVM running for 3.831)
+2021-05-28 16:27:10.176 -INFO 47294 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 16:27:10.177 -INFO 47294 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 16:27:10.210 -INFO 47294 [           main] org.reflections.Reflections : Reflections took 19 ms to scan 1 urls, producing 4 keys and 13 values 
+2021-05-28 16:27:10.255 -INFO 47294 [           main] org.reflections.Reflections : Reflections took 3 ms to scan 1 urls, producing 2 keys and 5 values 
+2021-05-28 16:27:21.288 -ERROR 47294 [ctor-http-nio-2] reactor.core.publisher.Operators : Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.nio.file.NoSuchFileException: ./files/新macbook发票.PDF
+Caused by: java.nio.file.NoSuchFileException: ./files/新macbook发票.PDF
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newAsynchronousFileChannel(UnixFileSystemProvider.java:196)
+	at java.nio.channels.AsynchronousFileChannel.open(AsynchronousFileChannel.java:248)
+	at org.springframework.core.io.buffer.DataBufferUtils.lambda$write$10(DataBufferUtils.java:364)
+	at reactor.core.publisher.MonoCreate.subscribe(MonoCreate.java:57)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+	at reactor.core.publisher.Mono.subscribeWith(Mono.java:4265)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3982)
+	at com.flying.dragon.Biz.Manager.TestManager.fileTest(TestManager.java:97)
+	at com.flying.dragon.Biz.Manager.TestManager$$FastClassBySpringCGLIB$$27c5df6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.flying.dragon.Frame.Aspect.CheckParamsAspect.around(CheckParamsAspect.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.flying.dragon.Biz.Manager.TestManager$$EnhancerBySpringCGLIB$$28f2cc49.fileTest(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.flying.dragon.Biz.Dispatcher.dispatch(Dispatcher.java:70)
+	at com.flying.dragon.Biz.Entrance.Controller.TestController.fileUpload(TestController.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.reactive.result.method.InvocableHandlerMethod.lambda$invoke$0(InvocableHandlerMethod.java:146)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:251)
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:336)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+	at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:100)
+	at reactor.core.publisher.FluxHide$SuppressFuseableSubscriber.onNext(FluxHide.java:136)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:299)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:299)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:88)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:259)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:251)
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:336)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+	at reactor.core.publisher.MonoCacheTime$CoordinatorSubscriber.signalCached(MonoCacheTime.java:337)
+	at reactor.core.publisher.MonoCacheTime$CoordinatorSubscriber.onNext(MonoCacheTime.java:354)
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onNext(FluxPeekFuseable.java:210)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159)
+	at reactor.core.publisher.FluxCreate$BaseSink.complete(FluxCreate.java:439)
+	at reactor.core.publisher.FluxCreate$BufferAsyncSink.drain(FluxCreate.java:784)
+	at reactor.core.publisher.FluxCreate$BufferAsyncSink.complete(FluxCreate.java:732)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.drainLoop(FluxCreate.java:240)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.drain(FluxCreate.java:206)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.complete(FluxCreate.java:197)
+	at org.springframework.http.codec.multipart.PartGenerator.emitComplete(PartGenerator.java:213)
+	at org.springframework.http.codec.multipart.PartGenerator$InMemoryState.partComplete(PartGenerator.java:500)
+	at org.springframework.http.codec.multipart.PartGenerator.hookOnComplete(PartGenerator.java:163)
+	at reactor.core.publisher.BaseSubscriber.onComplete(BaseSubscriber.java:197)
+	at reactor.core.publisher.FluxCreate$BaseSink.complete(FluxCreate.java:439)
+	at reactor.core.publisher.FluxCreate$BufferAsyncSink.drain(FluxCreate.java:784)
+	at reactor.core.publisher.FluxCreate$BufferAsyncSink.complete(FluxCreate.java:732)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.drainLoop(FluxCreate.java:240)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.drain(FluxCreate.java:206)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.complete(FluxCreate.java:197)
+	at org.springframework.http.codec.multipart.MultipartParser.emitComplete(MultipartParser.java:174)
+	at org.springframework.http.codec.multipart.MultipartParser$HeadersState.onNext(MultipartParser.java:357)
+	at org.springframework.http.codec.multipart.MultipartParser.changeState(MultipartParser.java:138)
+	at org.springframework.http.codec.multipart.MultipartParser$BodyState.onNext(MultipartParser.java:515)
+	at org.springframework.http.codec.multipart.MultipartParser.hookOnNext(MultipartParser.java:109)
+	at org.springframework.http.codec.multipart.MultipartParser.hookOnNext(MultipartParser.java:46)
+	at reactor.core.publisher.BaseSubscriber.onNext(BaseSubscriber.java:160)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:199)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:280)
+	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:389)
+	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:401)
+	at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:551)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:94)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2021-05-28 16:27:21.289 -ERROR 47294 [ctor-http-nio-2] reactor.core.publisher.Operators : Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.nio.file.NoSuchFileException: ./files/course服务器2021.4月.pdf
+Caused by: java.nio.file.NoSuchFileException: ./files/course服务器2021.4月.pdf
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newAsynchronousFileChannel(UnixFileSystemProvider.java:196)
+	at java.nio.channels.AsynchronousFileChannel.open(AsynchronousFileChannel.java:248)
+	at org.springframework.core.io.buffer.DataBufferUtils.lambda$write$10(DataBufferUtils.java:364)
+	at reactor.core.publisher.MonoCreate.subscribe(MonoCreate.java:57)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+	at reactor.core.publisher.Mono.subscribeWith(Mono.java:4265)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3982)
+	at com.flying.dragon.Biz.Manager.TestManager.fileTest(TestManager.java:97)
+	at com.flying.dragon.Biz.Manager.TestManager$$FastClassBySpringCGLIB$$27c5df6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.flying.dragon.Frame.Aspect.CheckParamsAspect.around(CheckParamsAspect.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.flying.dragon.Biz.Manager.TestManager$$EnhancerBySpringCGLIB$$28f2cc49.fileTest(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.flying.dragon.Biz.Dispatcher.dispatch(Dispatcher.java:70)
+	at com.flying.dragon.Biz.Entrance.Controller.TestController.fileUpload(TestController.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.reactive.result.method.InvocableHandlerMethod.lambda$invoke$0(InvocableHandlerMethod.java:146)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:251)
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:336)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+	at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:100)
+	at reactor.core.publisher.FluxHide$SuppressFuseableSubscriber.onNext(FluxHide.java:136)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:299)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:299)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:88)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:259)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:251)
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:336)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+	at reactor.core.publisher.MonoCacheTime$CoordinatorSubscriber.signalCached(MonoCacheTime.java:337)
+	at reactor.core.publisher.MonoCacheTime$CoordinatorSubscriber.onNext(MonoCacheTime.java:354)
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onNext(FluxPeekFuseable.java:210)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159)
+	at reactor.core.publisher.FluxCreate$BaseSink.complete(FluxCreate.java:439)
+	at reactor.core.publisher.FluxCreate$BufferAsyncSink.drain(FluxCreate.java:784)
+	at reactor.core.publisher.FluxCreate$BufferAsyncSink.complete(FluxCreate.java:732)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.drainLoop(FluxCreate.java:240)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.drain(FluxCreate.java:206)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.complete(FluxCreate.java:197)
+	at org.springframework.http.codec.multipart.PartGenerator.emitComplete(PartGenerator.java:213)
+	at org.springframework.http.codec.multipart.PartGenerator$InMemoryState.partComplete(PartGenerator.java:500)
+	at org.springframework.http.codec.multipart.PartGenerator.hookOnComplete(PartGenerator.java:163)
+	at reactor.core.publisher.BaseSubscriber.onComplete(BaseSubscriber.java:197)
+	at reactor.core.publisher.FluxCreate$BaseSink.complete(FluxCreate.java:439)
+	at reactor.core.publisher.FluxCreate$BufferAsyncSink.drain(FluxCreate.java:784)
+	at reactor.core.publisher.FluxCreate$BufferAsyncSink.complete(FluxCreate.java:732)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.drainLoop(FluxCreate.java:240)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.drain(FluxCreate.java:206)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.complete(FluxCreate.java:197)
+	at org.springframework.http.codec.multipart.MultipartParser.emitComplete(MultipartParser.java:174)
+	at org.springframework.http.codec.multipart.MultipartParser$HeadersState.onNext(MultipartParser.java:357)
+	at org.springframework.http.codec.multipart.MultipartParser.changeState(MultipartParser.java:138)
+	at org.springframework.http.codec.multipart.MultipartParser$BodyState.onNext(MultipartParser.java:515)
+	at org.springframework.http.codec.multipart.MultipartParser.hookOnNext(MultipartParser.java:109)
+	at org.springframework.http.codec.multipart.MultipartParser.hookOnNext(MultipartParser.java:46)
+	at reactor.core.publisher.BaseSubscriber.onNext(BaseSubscriber.java:160)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:199)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:280)
+	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:389)
+	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:401)
+	at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:551)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:94)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2021-05-28 16:27:21.290 -ERROR 47294 [ctor-http-nio-2] reactor.core.publisher.Operators : Operator called default onErrorDropped
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.nio.file.NoSuchFileException: ./files/course服务器2021.5月.pdf
+Caused by: java.nio.file.NoSuchFileException: ./files/course服务器2021.5月.pdf
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.newAsynchronousFileChannel(UnixFileSystemProvider.java:196)
+	at java.nio.channels.AsynchronousFileChannel.open(AsynchronousFileChannel.java:248)
+	at org.springframework.core.io.buffer.DataBufferUtils.lambda$write$10(DataBufferUtils.java:364)
+	at reactor.core.publisher.MonoCreate.subscribe(MonoCreate.java:57)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4150)
+	at reactor.core.publisher.Mono.subscribeWith(Mono.java:4265)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3982)
+	at com.flying.dragon.Biz.Manager.TestManager.fileTest(TestManager.java:97)
+	at com.flying.dragon.Biz.Manager.TestManager$$FastClassBySpringCGLIB$$27c5df6.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.flying.dragon.Frame.Aspect.CheckParamsAspect.around(CheckParamsAspect.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.flying.dragon.Biz.Manager.TestManager$$EnhancerBySpringCGLIB$$28f2cc49.fileTest(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.flying.dragon.Biz.Dispatcher.dispatch(Dispatcher.java:70)
+	at com.flying.dragon.Biz.Entrance.Controller.TestController.fileUpload(TestController.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.reactive.result.method.InvocableHandlerMethod.lambda$invoke$0(InvocableHandlerMethod.java:146)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:125)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:251)
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:336)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onNext(MonoPeekTerminal.java:180)
+	at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:100)
+	at reactor.core.publisher.FluxHide$SuppressFuseableSubscriber.onNext(FluxHide.java:136)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.complete(MonoIgnoreThen.java:284)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onNext(MonoIgnoreThen.java:187)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.subscribeNext(MonoIgnoreThen.java:232)
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.onComplete(MonoIgnoreThen.java:203)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:299)
+	at reactor.core.publisher.MonoPeekTerminal$MonoTerminalPeekSubscriber.onComplete(MonoPeekTerminal.java:299)
+	at reactor.core.publisher.MonoIgnoreElements$IgnoreElementsSubscriber.onComplete(MonoIgnoreElements.java:88)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:259)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:142)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1816)
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:251)
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:336)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+	at reactor.core.publisher.MonoCacheTime$CoordinatorSubscriber.signalCached(MonoCacheTime.java:337)
+	at reactor.core.publisher.MonoCacheTime$CoordinatorSubscriber.onNext(MonoCacheTime.java:354)
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:73)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:127)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onNext(FluxPeekFuseable.java:210)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1815)
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:159)
+	at reactor.core.publisher.FluxCreate$BaseSink.complete(FluxCreate.java:439)
+	at reactor.core.publisher.FluxCreate$BufferAsyncSink.drain(FluxCreate.java:784)
+	at reactor.core.publisher.FluxCreate$BufferAsyncSink.complete(FluxCreate.java:732)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.drainLoop(FluxCreate.java:240)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.drain(FluxCreate.java:206)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.complete(FluxCreate.java:197)
+	at org.springframework.http.codec.multipart.PartGenerator.emitComplete(PartGenerator.java:213)
+	at org.springframework.http.codec.multipart.PartGenerator$InMemoryState.partComplete(PartGenerator.java:500)
+	at org.springframework.http.codec.multipart.PartGenerator.hookOnComplete(PartGenerator.java:163)
+	at reactor.core.publisher.BaseSubscriber.onComplete(BaseSubscriber.java:197)
+	at reactor.core.publisher.FluxCreate$BaseSink.complete(FluxCreate.java:439)
+	at reactor.core.publisher.FluxCreate$BufferAsyncSink.drain(FluxCreate.java:784)
+	at reactor.core.publisher.FluxCreate$BufferAsyncSink.complete(FluxCreate.java:732)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.drainLoop(FluxCreate.java:240)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.drain(FluxCreate.java:206)
+	at reactor.core.publisher.FluxCreate$SerializedFluxSink.complete(FluxCreate.java:197)
+	at org.springframework.http.codec.multipart.MultipartParser.emitComplete(MultipartParser.java:174)
+	at org.springframework.http.codec.multipart.MultipartParser$HeadersState.onNext(MultipartParser.java:357)
+	at org.springframework.http.codec.multipart.MultipartParser.changeState(MultipartParser.java:138)
+	at org.springframework.http.codec.multipart.MultipartParser$BodyState.onNext(MultipartParser.java:515)
+	at org.springframework.http.codec.multipart.MultipartParser.hookOnNext(MultipartParser.java:109)
+	at org.springframework.http.codec.multipart.MultipartParser.hookOnNext(MultipartParser.java:46)
+	at reactor.core.publisher.BaseSubscriber.onNext(BaseSubscriber.java:160)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:199)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:120)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:280)
+	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:389)
+	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:401)
+	at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:551)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:94)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:253)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2021-05-28 16:28:39.589 -INFO 47340 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47340 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:28:39.591 -DEBUG 47340 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 16:28:39.591 -INFO 47340 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:28:40.057 -INFO 47340 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:28:40.057 -INFO 47340 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 16:28:40.070 -INFO 47340 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 16:28:40.080 -INFO 47340 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:28:40.081 -INFO 47340 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 16:28:40.093 -INFO 47340 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-28 16:28:40.521 -INFO 47340 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 16:28:40.561 -INFO 47340 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:133}] to localhost:27017
+2021-05-28 16:28:40.561 -INFO 47340 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:132}] to localhost:27017
+2021-05-28 16:28:40.561 -INFO 47340 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=15074177}
+2021-05-28 16:28:41.813 -INFO 47340 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 16:28:41.821 -INFO 47340 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 16:28:41.821 -INFO 47340 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 16:28:41.821 -INFO 47340 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 16:28:41.822 -INFO 47340 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 16:28:41.822 -INFO 47340 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 16:28:41.822 -INFO 47340 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 16:28:41.822 -INFO 47340 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6c6928c
+2021-05-28 16:28:42.696 -INFO 47340 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 16:28:42.698 -INFO 47340 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 16:28:42.698 -INFO 47340 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 16:28:42.706 -INFO 47340 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.402 seconds (JVM running for 4.059)
+2021-05-28 16:28:42.707 -INFO 47340 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 16:28:42.708 -INFO 47340 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 16:28:42.742 -INFO 47340 [           main] org.reflections.Reflections : Reflections took 21 ms to scan 1 urls, producing 4 keys and 13 values 
+2021-05-28 16:28:42.758 -INFO 47340 [           main] org.reflections.Reflections : Reflections took 3 ms to scan 1 urls, producing 2 keys and 5 values 
+2021-05-28 16:31:30.591 -INFO 47360 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47360 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:31:30.592 -DEBUG 47360 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 16:31:30.593 -INFO 47360 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:31:31.055 -INFO 47360 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:31:31.056 -INFO 47360 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 16:31:31.069 -INFO 47360 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 16:31:31.079 -INFO 47360 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:31:31.080 -INFO 47360 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 16:31:31.092 -INFO 47360 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-28 16:31:31.498 -INFO 47360 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 16:31:31.539 -INFO 47360 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:134}] to localhost:27017
+2021-05-28 16:31:31.539 -INFO 47360 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:135}] to localhost:27017
+2021-05-28 16:31:31.540 -INFO 47360 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=13780222}
+2021-05-28 16:31:32.899 -INFO 47360 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 16:31:32.907 -INFO 47360 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 16:31:32.907 -INFO 47360 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 16:31:32.908 -INFO 47360 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 16:31:32.908 -INFO 47360 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 16:31:32.908 -INFO 47360 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 16:31:32.908 -INFO 47360 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 16:31:32.908 -INFO 47360 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5abf6a99
+2021-05-28 16:31:33.759 -INFO 47360 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 16:31:33.761 -INFO 47360 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 16:31:33.761 -INFO 47360 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 16:31:33.768 -INFO 47360 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.45 seconds (JVM running for 4.019)
+2021-05-28 16:31:33.770 -INFO 47360 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 16:31:33.771 -INFO 47360 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 16:31:33.805 -INFO 47360 [           main] org.reflections.Reflections : Reflections took 21 ms to scan 1 urls, producing 4 keys and 13 values 
+2021-05-28 16:31:33.821 -INFO 47360 [           main] org.reflections.Reflections : Reflections took 4 ms to scan 1 urls, producing 2 keys and 5 values 
+2021-05-28 16:51:46.544 -INFO 47496 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47496 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:51:46.546 -DEBUG 47496 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 16:51:46.546 -INFO 47496 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:51:47.030 -INFO 47496 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:51:47.031 -INFO 47496 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 16:51:47.043 -INFO 47496 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 16:51:47.053 -INFO 47496 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:51:47.053 -INFO 47496 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 16:51:47.064 -INFO 47496 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-28 16:51:47.468 -INFO 47496 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 16:51:47.510 -INFO 47496 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:136}] to localhost:27017
+2021-05-28 16:51:47.510 -INFO 47496 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:137}] to localhost:27017
+2021-05-28 16:51:47.510 -INFO 47496 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=14073407}
+2021-05-28 16:51:48.726 -INFO 47496 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 16:51:48.734 -INFO 47496 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 16:51:48.734 -INFO 47496 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 16:51:48.734 -INFO 47496 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 16:51:48.734 -INFO 47496 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 16:51:48.734 -INFO 47496 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 16:51:48.735 -INFO 47496 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 16:51:48.735 -INFO 47496 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@446b64b3
+2021-05-28 16:51:49.592 -INFO 47496 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 16:51:49.594 -INFO 47496 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 16:51:49.594 -INFO 47496 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 16:51:49.601 -INFO 47496 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.327 seconds (JVM running for 3.894)
+2021-05-28 16:51:49.602 -INFO 47496 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 16:51:49.603 -INFO 47496 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 16:51:49.640 -INFO 47496 [           main] org.reflections.Reflections : Reflections took 22 ms to scan 1 urls, producing 4 keys and 14 values 
+2021-05-28 16:51:49.657 -INFO 47496 [           main] org.reflections.Reflections : Reflections took 4 ms to scan 1 urls, producing 2 keys and 5 values 
+2021-05-28 16:52:38.511 -INFO 47511 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47511 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:52:38.512 -DEBUG 47511 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 16:52:38.512 -INFO 47511 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:52:38.949 -INFO 47511 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:52:38.949 -INFO 47511 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 16:52:38.961 -INFO 47511 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 16:52:38.971 -INFO 47511 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:52:38.972 -INFO 47511 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 16:52:38.983 -INFO 47511 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-28 16:52:39.397 -INFO 47511 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 16:52:39.437 -INFO 47511 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:139}] to localhost:27017
+2021-05-28 16:52:39.437 -INFO 47511 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:138}] to localhost:27017
+2021-05-28 16:52:39.437 -INFO 47511 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=13223370}
+2021-05-28 16:52:40.626 -INFO 47511 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 16:52:40.633 -INFO 47511 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 16:52:40.633 -INFO 47511 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 16:52:40.634 -INFO 47511 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 16:52:40.634 -INFO 47511 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 16:52:40.634 -INFO 47511 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 16:52:40.634 -INFO 47511 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 16:52:40.634 -INFO 47511 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2a136383
+2021-05-28 16:52:41.538 -INFO 47511 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 16:52:41.539 -INFO 47511 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 16:52:41.540 -INFO 47511 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 16:52:41.547 -INFO 47511 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.328 seconds (JVM running for 3.905)
+2021-05-28 16:52:41.547 -INFO 47511 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 16:52:41.548 -INFO 47511 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 16:52:41.581 -INFO 47511 [           main] org.reflections.Reflections : Reflections took 20 ms to scan 1 urls, producing 4 keys and 14 values 
+2021-05-28 16:52:41.595 -INFO 47511 [           main] org.reflections.Reflections : Reflections took 3 ms to scan 1 urls, producing 2 keys and 5 values 
+2021-05-28 16:52:43.942 -WARN 47511 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-TEST_PARAMS-{"bizTypeStr":"TEST_PARAMS","id":23432,"num":0}-UserWarn002-com.flying.dragon.Frame.Aspect.LogInAspect#around#27/
+2021-05-28 16:52:48.451 -WARN 47511 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-TEST_PARAMS-{"bizTypeStr":"TEST_PARAMS","id":23432,"num":0}-UserWarn002-com.flying.dragon.Frame.Aspect.LogInAspect#around#27/
+2021-05-28 16:53:04.106 -INFO 47515 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47515 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:53:04.108 -DEBUG 47515 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 16:53:04.108 -INFO 47515 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:53:04.547 -INFO 47515 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:53:04.548 -INFO 47515 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 16:53:04.561 -INFO 47515 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 16:53:04.570 -INFO 47515 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:53:04.571 -INFO 47515 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 16:53:04.583 -INFO 47515 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-28 16:53:04.991 -INFO 47515 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 16:53:05.030 -INFO 47515 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:141}] to localhost:27017
+2021-05-28 16:53:05.030 -INFO 47515 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:140}] to localhost:27017
+2021-05-28 16:53:05.031 -INFO 47515 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=12508936}
+2021-05-28 16:53:06.387 -INFO 47515 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 16:53:06.395 -INFO 47515 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 16:53:06.395 -INFO 47515 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 16:53:06.396 -INFO 47515 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 16:53:06.396 -INFO 47515 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 16:53:06.396 -INFO 47515 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 16:53:06.396 -INFO 47515 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 16:53:06.396 -INFO 47515 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@38f617f4
+2021-05-28 16:53:07.290 -INFO 47515 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 16:53:07.291 -INFO 47515 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 16:53:07.291 -INFO 47515 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 16:53:07.298 -INFO 47515 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.499 seconds (JVM running for 4.086)
+2021-05-28 16:53:07.299 -INFO 47515 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 16:53:07.300 -INFO 47515 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 16:53:07.331 -INFO 47515 [           main] org.reflections.Reflections : Reflections took 18 ms to scan 1 urls, producing 4 keys and 14 values 
+2021-05-28 16:53:07.347 -INFO 47515 [           main] org.reflections.Reflections : Reflections took 4 ms to scan 1 urls, producing 2 keys and 5 values 
+2021-05-28 16:53:27.649 -INFO 47519 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47519 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:53:27.651 -DEBUG 47519 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-05-28 16:53:27.651 -INFO 47519 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:53:28.098 -INFO 47519 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:53:28.099 -INFO 47519 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-28 16:53:28.112 -INFO 47519 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 MongoDB repository interfaces.
+2021-05-28 16:53:28.122 -INFO 47519 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-28 16:53:28.123 -INFO 47519 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-05-28 16:53:28.134 -INFO 47519 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-05-28 16:53:28.549 -INFO 47519 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-28 16:53:28.587 -INFO 47519 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:143}] to localhost:27017
+2021-05-28 16:53:28.587 -INFO 47519 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:142}] to localhost:27017
+2021-05-28 16:53:28.588 -INFO 47519 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=13185397}
+2021-05-28 16:53:29.752 -INFO 47519 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-05-28 16:53:29.760 -INFO 47519 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-05-28 16:53:29.760 -INFO 47519 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-05-28 16:53:29.761 -INFO 47519 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-05-28 16:53:29.761 -INFO 47519 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-05-28 16:53:29.761 -INFO 47519 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-05-28 16:53:29.761 -INFO 47519 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-05-28 16:53:29.761 -INFO 47519 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@15994b0b
+2021-05-28 16:53:30.621 -INFO 47519 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-05-28 16:53:30.622 -INFO 47519 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-05-28 16:53:30.622 -INFO 47519 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-05-28 16:53:30.629 -INFO 47519 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.272 seconds (JVM running for 3.86)
+2021-05-28 16:53:30.630 -INFO 47519 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-05-28 16:53:30.631 -INFO 47519 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-28 16:53:30.662 -INFO 47519 [           main] org.reflections.Reflections : Reflections took 18 ms to scan 1 urls, producing 4 keys and 14 values 
+2021-05-28 16:53:30.677 -INFO 47519 [           main] org.reflections.Reflections : Reflections took 3 ms to scan 1 urls, producing 2 keys and 5 values 

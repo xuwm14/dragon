@@ -1,0 +1,141 @@
+2021-06-23 13:34:41.724 -INFO 3094 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMBP with PID 3094 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-06-23 13:34:41.726 -DEBUG 3094 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-23 13:34:41.726 -INFO 3094 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-06-23 13:34:42.227 -INFO 3094 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-23 13:34:42.227 -INFO 3094 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-06-23 13:34:42.240 -INFO 3094 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 MongoDB repository interfaces.
+2021-06-23 13:34:42.251 -INFO 3094 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-23 13:34:42.252 -INFO 3094 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-23 13:34:42.264 -INFO 3094 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-06-23 13:34:42.750 -INFO 3094 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-06-23 13:34:42.780 -INFO 3094 [localhost:27017] org.mongodb.driver.cluster : Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:143)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:188)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:107)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 4 common frames omitted
+2021-06-23 13:34:44.227 -INFO 3094 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-06-23 13:34:44.237 -INFO 3094 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-06-23 13:34:44.237 -INFO 3094 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-06-23 13:34:44.238 -INFO 3094 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-06-23 13:34:44.238 -INFO 3094 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-06-23 13:34:44.238 -INFO 3094 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-06-23 13:34:44.238 -INFO 3094 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-06-23 13:34:44.238 -INFO 3094 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3957d88b
+2021-06-23 13:34:45.173 -INFO 3094 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-06-23 13:34:45.174 -INFO 3094 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-06-23 13:34:45.175 -INFO 3094 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-06-23 13:34:45.183 -INFO 3094 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.769 seconds (JVM running for 5.121)
+2021-06-23 13:34:45.184 -INFO 3094 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-06-23 13:34:45.185 -INFO 3094 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-23 13:34:45.228 -INFO 3094 [           main] org.reflections.Reflections : Reflections took 25 ms to scan 1 urls, producing 4 keys and 14 values 
+2021-06-23 13:34:45.246 -INFO 3094 [           main] org.reflections.Reflections : Reflections took 3 ms to scan 1 urls, producing 2 keys and 5 values 
+2021-06-23 13:36:59.166 -WARN 3094 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-USER_LOG_IN-{"bizTypeStr":"USER_LOG_IN"}-CheckParamsError-com.flying.dragon.Biz.Manager.UserManager$$EnhancerBySpringCGLIB$$98dd63b5#userLogin#-1/
+2021-06-23 13:37:44.465 -INFO 3094 [ctor-http-nio-2] org.mongodb.driver.cluster : Cluster description not yet available. Waiting for 30000 ms before timing out
+2021-06-23 13:38:14.485 -ERROR 3094 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-USER_LOG_IN-{"bizTypeStr":"USER_LOG_IN","password":"test"}-org.springframework.dao.DataAccessResourceFailureException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused (Connection refused)}}]; nested exception is com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused (Connection refused)}}]-com.flying.dragon.Biz.Processor.UserProcessor#getUserByUsername#23/com.flying.dragon.Biz.Manager.UserManager#userLogin#37/com.flying.dragon.Biz.Manager.UserManager$$FastClassBySpringCGLIB$$7e4d49d#invoke#-1/com.flying.dragon.Frame.Aspect.CheckParamsAspect#around#36/com.flying.dragon.Biz.Manager.UserManager$$EnhancerBySpringCGLIB$$98dd63b5#userLogin#-1/com.flying.dragon.Biz.Dispatcher#dispatch#70/com.flying.dragon.Biz.Entrance.Controller.UserController#login#26/
+2021-06-23 13:38:14.775 -INFO 3094 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:97, serverValue:1}] to localhost:27017
+2021-06-23 13:38:15.574 -INFO 3094 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:96, serverValue:2}] to localhost:27017
+2021-06-23 13:38:15.574 -INFO 3094 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1069949}
+2021-06-23 13:38:41.644 -INFO 3094 [ctor-http-nio-2] org.mongodb.driver.connection : Closed connection [connectionId{localValue:98}] to localhost:27017 because there was a socket exception raised by this connection.
+2021-06-23 13:38:41.646 -ERROR 3094 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-USER_LOG_IN-{"bizTypeStr":"USER_LOG_IN","password":"test"}-org.springframework.data.mongodb.UncategorizedMongoDbException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='course', source='course', password=<hidden>, mechanismProperties=<hidden>}; nested exception is com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='course', source='course', password=<hidden>, mechanismProperties=<hidden>}-com.flying.dragon.Biz.Processor.UserProcessor#getUserByUsername#23/com.flying.dragon.Biz.Manager.UserManager#userLogin#37/com.flying.dragon.Biz.Manager.UserManager$$FastClassBySpringCGLIB$$7e4d49d#invoke#-1/com.flying.dragon.Frame.Aspect.CheckParamsAspect#around#36/com.flying.dragon.Biz.Manager.UserManager$$EnhancerBySpringCGLIB$$98dd63b5#userLogin#-1/com.flying.dragon.Biz.Dispatcher#dispatch#70/com.flying.dragon.Biz.Entrance.Controller.UserController#login#26/
+2021-06-23 13:38:42.744 -INFO 3094 [ctor-http-nio-2] org.mongodb.driver.connection : Closed connection [connectionId{localValue:99}] to localhost:27017 because there was a socket exception raised by this connection.
+2021-06-23 13:38:42.745 -ERROR 3094 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-USER_LOG_IN-{"bizTypeStr":"USER_LOG_IN","password":"test"}-org.springframework.data.mongodb.UncategorizedMongoDbException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='course', source='course', password=<hidden>, mechanismProperties=<hidden>}; nested exception is com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='course', source='course', password=<hidden>, mechanismProperties=<hidden>}-com.flying.dragon.Biz.Processor.UserProcessor#getUserByUsername#23/com.flying.dragon.Biz.Manager.UserManager#userLogin#37/com.flying.dragon.Biz.Manager.UserManager$$FastClassBySpringCGLIB$$7e4d49d#invoke#-1/com.flying.dragon.Frame.Aspect.CheckParamsAspect#around#36/com.flying.dragon.Biz.Manager.UserManager$$EnhancerBySpringCGLIB$$98dd63b5#userLogin#-1/com.flying.dragon.Biz.Dispatcher#dispatch#70/com.flying.dragon.Biz.Entrance.Controller.UserController#login#26/
+2021-06-23 13:38:43.651 -INFO 3094 [ctor-http-nio-2] org.mongodb.driver.connection : Closed connection [connectionId{localValue:100}] to localhost:27017 because there was a socket exception raised by this connection.
+2021-06-23 13:38:43.652 -ERROR 3094 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-USER_LOG_IN-{"bizTypeStr":"USER_LOG_IN","password":"test"}-org.springframework.data.mongodb.UncategorizedMongoDbException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='course', source='course', password=<hidden>, mechanismProperties=<hidden>}; nested exception is com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='course', source='course', password=<hidden>, mechanismProperties=<hidden>}-com.flying.dragon.Biz.Processor.UserProcessor#getUserByUsername#23/com.flying.dragon.Biz.Manager.UserManager#userLogin#37/com.flying.dragon.Biz.Manager.UserManager$$FastClassBySpringCGLIB$$7e4d49d#invoke#-1/com.flying.dragon.Frame.Aspect.CheckParamsAspect#around#36/com.flying.dragon.Biz.Manager.UserManager$$EnhancerBySpringCGLIB$$98dd63b5#userLogin#-1/com.flying.dragon.Biz.Dispatcher#dispatch#70/com.flying.dragon.Biz.Entrance.Controller.UserController#login#26/
+2021-06-23 13:38:54.519 -INFO 3150 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMBP with PID 3150 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-06-23 13:38:54.521 -DEBUG 3150 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-23 13:38:54.521 -INFO 3150 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-06-23 13:38:54.983 -INFO 3150 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-23 13:38:54.984 -INFO 3150 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-06-23 13:38:54.996 -INFO 3150 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 MongoDB repository interfaces.
+2021-06-23 13:38:55.005 -INFO 3150 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-23 13:38:55.006 -INFO 3150 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-23 13:38:55.017 -INFO 3150 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-06-23 13:38:55.433 -INFO 3150 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-06-23 13:38:55.470 -INFO 3150 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:8}] to localhost:27017
+2021-06-23 13:38:55.470 -INFO 3150 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:7}] to localhost:27017
+2021-06-23 13:38:55.470 -INFO 3150 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=11844507}
+2021-06-23 13:38:56.549 -INFO 3150 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-06-23 13:38:56.557 -INFO 3150 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-06-23 13:38:56.557 -INFO 3150 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-06-23 13:38:56.558 -INFO 3150 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-06-23 13:38:56.559 -INFO 3150 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-06-23 13:38:56.559 -INFO 3150 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-06-23 13:38:56.559 -INFO 3150 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-06-23 13:38:56.559 -INFO 3150 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4b4927e5
+2021-06-23 13:38:57.404 -INFO 3150 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-06-23 13:38:57.405 -INFO 3150 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-06-23 13:38:57.406 -INFO 3150 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-06-23 13:38:57.413 -INFO 3150 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.216 seconds (JVM running for 3.84)
+2021-06-23 13:38:57.414 -INFO 3150 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-06-23 13:38:57.415 -INFO 3150 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-23 13:38:57.446 -INFO 3150 [           main] org.reflections.Reflections : Reflections took 19 ms to scan 1 urls, producing 4 keys and 14 values 
+2021-06-23 13:38:57.461 -INFO 3150 [           main] org.reflections.Reflections : Reflections took 3 ms to scan 1 urls, producing 2 keys and 5 values 
+2021-06-23 14:20:36.756 -INFO 3150 [ctor-http-nio-2] org.mongodb.driver.connection : Closed connection [connectionId{localValue:3}] to localhost:27017 because there was a socket exception raised by this connection.
+2021-06-23 14:20:36.761 -ERROR 3150 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-USER_LOG_IN-{"bizTypeStr":"USER_LOG_IN","password":"test"}-org.springframework.data.mongodb.UncategorizedMongoDbException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='course', source='course', password=<hidden>, mechanismProperties=<hidden>}; nested exception is com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='course', source='course', password=<hidden>, mechanismProperties=<hidden>}-com.flying.dragon.Biz.Processor.UserProcessor#getUserByUsername#23/com.flying.dragon.Biz.Manager.UserManager#userLogin#37/com.flying.dragon.Biz.Manager.UserManager$$FastClassBySpringCGLIB$$7e4d49d#invoke#-1/com.flying.dragon.Frame.Aspect.CheckParamsAspect#around#36/com.flying.dragon.Biz.Manager.UserManager$$EnhancerBySpringCGLIB$$16c211dd#userLogin#-1/com.flying.dragon.Biz.Dispatcher#dispatch#70/com.flying.dragon.Biz.Entrance.Controller.UserController#login#26/
+2021-06-23 14:20:52.574 -INFO 3150 [ctor-http-nio-2] org.mongodb.driver.connection : Closed connection [connectionId{localValue:4}] to localhost:27017 because there was a socket exception raised by this connection.
+2021-06-23 14:20:52.574 -ERROR 3150 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-USER_LOG_IN-{"bizTypeStr":"USER_LOG_IN","password":"test"}-org.springframework.data.mongodb.UncategorizedMongoDbException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='course', source='course', password=<hidden>, mechanismProperties=<hidden>}; nested exception is com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='course', source='course', password=<hidden>, mechanismProperties=<hidden>}-com.flying.dragon.Biz.Processor.UserProcessor#getUserByUsername#23/com.flying.dragon.Biz.Manager.UserManager#userLogin#37/com.flying.dragon.Biz.Manager.UserManager$$FastClassBySpringCGLIB$$7e4d49d#invoke#-1/com.flying.dragon.Frame.Aspect.CheckParamsAspect#around#36/com.flying.dragon.Biz.Manager.UserManager$$EnhancerBySpringCGLIB$$16c211dd#userLogin#-1/com.flying.dragon.Biz.Dispatcher#dispatch#70/com.flying.dragon.Biz.Entrance.Controller.UserController#login#26/
+2021-06-23 14:21:24.062 -INFO 3442 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMBP with PID 3442 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-06-23 14:21:24.065 -DEBUG 3442 [           main] com.flying.dragon.DragonApplication : Running with Spring Boot v2.5.0, Spring v5.3.7
+2021-06-23 14:21:24.065 -INFO 3442 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-06-23 14:21:24.519 -INFO 3442 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-23 14:21:24.520 -INFO 3442 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-06-23 14:21:24.532 -INFO 3442 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 MongoDB repository interfaces.
+2021-06-23 14:21:24.541 -INFO 3442 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-23 14:21:24.542 -INFO 3442 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-23 14:21:24.553 -INFO 3442 [           main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2021-06-23 14:21:24.978 -INFO 3442 [           main] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-06-23 14:21:25.015 -INFO 3442 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:13}] to localhost:27017
+2021-06-23 14:21:25.015 -INFO 3442 [localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:2, serverValue:12}] to localhost:27017
+2021-06-23 14:21:25.015 -INFO 3442 [localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=12664210}
+2021-06-23 14:21:26.093 -INFO 3442 [           main] org.quartz.impl.StdSchedulerFactory : Using default implementation for ThreadExecutor
+2021-06-23 14:21:26.100 -INFO 3442 [           main] org.quartz.core.SchedulerSignalerImpl : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-06-23 14:21:26.100 -INFO 3442 [           main] org.quartz.core.QuartzScheduler : Quartz Scheduler v.2.3.2 created.
+2021-06-23 14:21:26.101 -INFO 3442 [           main] org.quartz.simpl.RAMJobStore : RAMJobStore initialized.
+2021-06-23 14:21:26.101 -INFO 3442 [           main] org.quartz.core.QuartzScheduler : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-06-23 14:21:26.101 -INFO 3442 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-06-23 14:21:26.101 -INFO 3442 [           main] org.quartz.impl.StdSchedulerFactory : Quartz scheduler version: 2.3.2
+2021-06-23 14:21:26.101 -INFO 3442 [           main] org.quartz.core.QuartzScheduler : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3dea226b
+2021-06-23 14:21:26.944 -INFO 3442 [           main] org.springframework.boot.web.embedded.netty.NettyWebServer : Netty started on port 8080
+2021-06-23 14:21:26.946 -INFO 3442 [           main] org.springframework.scheduling.quartz.SchedulerFactoryBean : Starting Quartz Scheduler now
+2021-06-23 14:21:26.946 -INFO 3442 [           main] org.quartz.core.QuartzScheduler : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-06-23 14:21:26.953 -INFO 3442 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.192 seconds (JVM running for 3.821)
+2021-06-23 14:21:26.954 -INFO 3442 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state LivenessState changed to CORRECT
+2021-06-23 14:21:26.955 -INFO 3442 [           main] org.springframework.boot.availability.ApplicationAvailabilityBean : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-23 14:21:26.989 -INFO 3442 [           main] org.reflections.Reflections : Reflections took 20 ms to scan 1 urls, producing 4 keys and 14 values 
+2021-06-23 14:21:27.003 -INFO 3442 [           main] org.reflections.Reflections : Reflections took 3 ms to scan 1 urls, producing 2 keys and 5 values 
+2021-06-23 14:21:45.508 -INFO 3442 [ctor-http-nio-2] org.mongodb.driver.connection : Closed connection [connectionId{localValue:3}] to localhost:27017 because there was a socket exception raised by this connection.
+2021-06-23 14:22:07.407 -ERROR 3442 [ctor-http-nio-2] com.flying.dragon.DragonApplication : null-USER_LOG_IN-{"bizTypeStr":"USER_LOG_IN","password":"test"}-org.springframework.data.mongodb.UncategorizedMongoDbException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='course', source='course', password=<hidden>, mechanismProperties=<hidden>}; nested exception is com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='course', source='course', password=<hidden>, mechanismProperties=<hidden>}-com.flying.dragon.Biz.Processor.UserProcessor#getUserByUsername#23/com.flying.dragon.Biz.Manager.UserManager#userLogin#37/com.flying.dragon.Biz.Manager.UserManager$$FastClassBySpringCGLIB$$7e4d49d#invoke#-1/com.flying.dragon.Frame.Aspect.CheckParamsAspect#around#36/com.flying.dragon.Biz.Manager.UserManager$$EnhancerBySpringCGLIB$$89c881ad#userLogin#-1/com.flying.dragon.Biz.Dispatcher#dispatch#70/com.flying.dragon.Biz.Entrance.Controller.UserController#login#26/

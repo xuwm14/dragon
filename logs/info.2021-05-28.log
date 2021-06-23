@@ -1,0 +1,54 @@
+2021-05-28 10:36:07.030 -INFO 46348 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46348 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 10:36:07.032 -INFO 46348 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 10:36:10.073 -INFO 46348 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.31 seconds (JVM running for 3.887)
+2021-05-28 10:44:55.961 -INFO 46429 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46429 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 10:44:55.963 -INFO 46429 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 10:44:58.976 -INFO 46429 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.313 seconds (JVM running for 3.902)
+2021-05-28 10:47:11.200 -INFO 46445 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46445 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 10:47:11.203 -INFO 46445 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 10:47:14.493 -INFO 46445 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.57 seconds (JVM running for 4.133)
+2021-05-28 10:48:06.667 -INFO 46456 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46456 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 10:48:06.670 -INFO 46456 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 10:48:09.765 -INFO 46456 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.411 seconds (JVM running for 4.002)
+2021-05-28 11:11:03.546 -INFO 46634 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46634 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 11:11:03.548 -INFO 46634 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 11:11:06.610 -INFO 46634 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.335 seconds (JVM running for 3.923)
+2021-05-28 11:12:54.352 -INFO 46656 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46656 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 11:12:54.354 -INFO 46656 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 11:12:57.474 -INFO 46656 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.413 seconds (JVM running for 3.991)
+2021-05-28 11:14:02.145 -INFO 46667 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46667 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 11:14:02.147 -INFO 46667 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 11:14:05.333 -INFO 46667 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.473 seconds (JVM running for 4.175)
+2021-05-28 11:14:34.438 -INFO 46678 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46678 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 11:14:34.439 -INFO 46678 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 11:14:37.468 -INFO 46678 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.336 seconds (JVM running for 3.937)
+2021-05-28 11:29:36.171 -INFO 46785 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 46785 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 11:29:36.173 -INFO 46785 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 11:29:39.202 -INFO 46785 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.307 seconds (JVM running for 3.95)
+2021-05-28 16:23:53.018 -INFO 47266 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47266 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:23:53.020 -INFO 47266 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:23:56.351 -INFO 47266 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.659 seconds (JVM running for 4.298)
+2021-05-28 16:25:06.539 -INFO 47280 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47280 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:25:06.541 -INFO 47280 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:25:09.891 -INFO 47280 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.615 seconds (JVM running for 4.197)
+2021-05-28 16:27:07.179 -INFO 47294 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47294 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:27:07.181 -INFO 47294 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:27:10.175 -INFO 47294 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.263 seconds (JVM running for 3.831)
+2021-05-28 16:28:39.589 -INFO 47340 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47340 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:28:39.591 -INFO 47340 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:28:42.706 -INFO 47340 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.402 seconds (JVM running for 4.059)
+2021-05-28 16:31:30.591 -INFO 47360 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47360 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:31:30.593 -INFO 47360 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:31:33.768 -INFO 47360 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.45 seconds (JVM running for 4.019)
+2021-05-28 16:51:46.544 -INFO 47496 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47496 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:51:46.546 -INFO 47496 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:51:49.601 -INFO 47496 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.327 seconds (JVM running for 3.894)
+2021-05-28 16:52:38.511 -INFO 47511 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47511 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:52:38.512 -INFO 47511 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:52:41.547 -INFO 47511 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.328 seconds (JVM running for 3.905)
+2021-05-28 16:53:04.106 -INFO 47515 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47515 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:53:04.108 -INFO 47515 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:53:07.298 -INFO 47515 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.499 seconds (JVM running for 4.086)
+2021-05-28 16:53:27.649 -INFO 47519 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMacBook-Pro.local with PID 47519 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-05-28 16:53:27.651 -INFO 47519 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-05-28 16:53:30.629 -INFO 47519 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.272 seconds (JVM running for 3.86)

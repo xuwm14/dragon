@@ -1,0 +1,9 @@
+2021-06-23 13:34:41.724 -INFO 3094 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMBP with PID 3094 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-06-23 13:34:41.726 -INFO 3094 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-06-23 13:34:45.183 -INFO 3094 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.769 seconds (JVM running for 5.121)
+2021-06-23 13:38:54.519 -INFO 3150 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMBP with PID 3150 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-06-23 13:38:54.521 -INFO 3150 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-06-23 13:38:57.413 -INFO 3150 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.216 seconds (JVM running for 3.84)
+2021-06-23 14:21:24.062 -INFO 3442 [           main] com.flying.dragon.DragonApplication : Starting DragonApplication using Java 1.8.0_121 on xuweimindeMBP with PID 3442 (/Users/song/work/java/dragon/target/classes started by song in /Users/song/work/java/dragon)
+2021-06-23 14:21:24.065 -INFO 3442 [           main] com.flying.dragon.DragonApplication : No active profile set, falling back to default profiles: default
+2021-06-23 14:21:26.953 -INFO 3442 [           main] com.flying.dragon.DragonApplication : Started DragonApplication in 3.192 seconds (JVM running for 3.821)
