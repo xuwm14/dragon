@@ -14,6 +14,7 @@ import com.flying.dragon.Biz.Params.TestParams.in.TestInParams;
 import com.flying.dragon.Biz.Params.TestParams.in.UploadFileInParams;
 import com.flying.dragon.Biz.Params.TestParams.out.TestOutParams;
 import com.flying.dragon.Biz.Params.TestParams.out.UploadFileOutParams;
+import com.flying.dragon.Biz.Processor.TestProcessor;
 import com.flying.dragon.Frame.Util.RedisUtil;
 import com.flying.dragon.Frame.Util.SchedulerUtil;
 import io.netty.handler.codec.http.multipart.FileUpload;
@@ -40,6 +41,9 @@ public class TestManager extends CommonManager {
 
     @Autowired
     RedisUtil redisUtil;
+
+    @Autowired
+    TestProcessor testProcessor;
 
     @Autowired
     SchedulerUtil schedulerUtil;
@@ -146,5 +150,14 @@ public class TestManager extends CommonManager {
             outParams.setPaths(pathList);
         }
         return outParams;
+    }
+
+    /** mongodb数据库功能测试 */
+    @BizType(testBiz = TestBizEnum.TEST_MONGODB_OPT)
+    public CommonOutParams mongodbTest(CommonInParams inParams) {
+        /** 执行完操作后可以在mongodb中查看执行的结果 */
+        testProcessor.addTimeStr();
+        testProcessor.setTimeAttr();
+        return new CommonOutParams(true);
     }
 }

@@ -3,6 +3,7 @@ package com.flying.dragon.Biz.Entrance.Controller;
 import com.flying.dragon.Biz.BizType.TestBizEnum;
 import com.flying.dragon.Biz.Dispatcher;
 import com.flying.dragon.Biz.Params.CommonInParams;
+import com.flying.dragon.Biz.Params.CommonOutParams;
 import com.flying.dragon.Biz.Params.TestParams.in.TestInParams;
 import com.flying.dragon.Biz.Params.TestParams.in.UploadFileInParams;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,11 +37,43 @@ public class TestController {
         return Mono.just(dispatcher.dispatch(inParams));
     }
 
+    @RequestMapping(value="/adminPermission")
+    public Mono<String> adminPermission(CommonInParams inParams) {
+        inParams.setBizTypeStr(TestBizEnum.TEST_ADMIN_PERMISSION.toString());
+        return Mono.just(dispatcher.dispatch(inParams));
+    }
+
+    @RequestMapping(value="/timer")
+    public Mono<String> timer(CommonInParams inParams) {
+        inParams.setBizTypeStr(TestBizEnum.TEST_TIMER_OPT.toString());
+        return Mono.just(dispatcher.dispatch(inParams));
+    }
+
+    @RequestMapping(value="/error")
+    public Mono<String> error(CommonInParams inParams) {
+        inParams.setBizTypeStr(TestBizEnum.TEST_ERROR_THROW.toString());
+        return Mono.just(dispatcher.dispatch(inParams));
+    }
+
+    @RequestMapping(value="/redis")
+    public Mono<String> redis(CommonInParams inParams) {
+        inParams.setBizTypeStr(TestBizEnum.TEST_REDIS_OPT.toString());
+        return Mono.just(dispatcher.dispatch(inParams));
+    }
+
     @RequestMapping(value="/fileUpload")
     public Mono<String> fileUpload(UploadFileInParams inParams) {
         inParams.setBizTypeStr(TestBizEnum.TEST_FILE_UPLOAD.toString());
         return Mono.just(dispatcher.dispatch(inParams));
     }
+
+    @RequestMapping(value="/mongodb")
+    public Mono<String> mongodb(CommonInParams inParams) {
+        inParams.setBizTypeStr(TestBizEnum.TEST_MONGODB_OPT.toString());
+        return Mono.just(dispatcher.dispatch(inParams));
+    }
+
+
 }
 
 
